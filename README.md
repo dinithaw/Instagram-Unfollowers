@@ -1,5 +1,7 @@
 # Instagram Unfollowers Checker
 
+![Preview](screenshot.png)
+
 This project helps you find out who doesn't follow you back on Instagram by comparing your list of followers with the list of people you are following.
 
 ## Features
