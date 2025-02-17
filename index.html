@@ -1,29 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram Unfollowers Checker</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Instagram Unfollowers Checker</h1>
-
-    <label for="following">Upload Following JSON:</label>
-    <input type="file" id="following" accept=".json"><br><br>
-
-    <label for="followers">Upload Followers JSON:</label>
-    <input type="file" id="followers" accept=".json"><br><br>
-
-    <button onclick="checkUnfollowers()">Check</button>
-
-    <h3>Users who don’t follow you back:</h3>
-    <ul id="unfollowersList"></ul>
-
-    <script src="script.js"></script>
-</body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,8 +8,12 @@
 </head>
 <body>
     <h1>Instagram Unfollowers Checker</h1>
+    <label for="followingFile">Upload your following.json file:</label>
     <input type="file" id="followingFile" accept=".json">
+    <br>
+    <label for="followersFile">Upload your followers_1.json file:</label>
     <input type="file" id="followersFile" accept=".json">
+    <br>
     <button id="checkButton">Check</button>
     <div id="result"></div>
     <script src="script.js"></script>
