@@ -36,7 +36,11 @@ function displayUnfollowers(unfollowers) {
         const ul = document.createElement('ul');
         unfollowers.forEach(username => {
             const li = document.createElement('li');
-            li.textContent = username;
+            const a = document.createElement('a');
+            a.href = `https://www.instagram.com/${username}/`;
+            a.target = '_blank';
+            a.textContent = username;
+            li.appendChild(a);
             ul.appendChild(li);
         });
         resultContainer.appendChild(ul);
