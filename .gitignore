@@ -1,5 +1,4 @@
-# Logs
-logs
-
-# dotenv environment variable files
-.env
+# following and followers files
+/connections
+following.json
+followers_1.json
