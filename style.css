@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(245, 219, 245);
+}
+
+input, button {
+    margin: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
